@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hitch Hickers | Home</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0; padding: 0; box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+    body { background: #fff; color: #333; }
+    header {
+      background: #ff6f61;
+      color: #fff;
+      padding: 20px 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    header h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: 2rem;
+    }
+    nav a {
+      color: #fff;
+      margin: 0 10px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .hero {
+      background: url('https://www.chardhamyatra2022.com/wp-content/uploads/2023/02/Kedarnath-yatra-Package.jpeg') center/cover no-repeat;
+      height: 80vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      color: #fff;
+    }
+    .hero h2 {
+      font-size: 3rem;
+      text-shadow: 2px 2px 6px rgba(0,0,0,0.5);
+    }
+    .hero button {
+      margin-top: 20px;
+      padding: 12px 25px;
+      font-size: 1rem;
+      border: none;
+      background: #ffd700;
+      color: #333;
+      font-weight: bold;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    .section {
+      padding: 50px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .destinations {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      gap: 20px;
+    }
+    .card {
+      flex: 1 1 250px;
+      background: #f4f4f4;
+      border-radius: 8px;
+      overflow: hidden;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+    .card img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+    }
+    .card h3 {
+      padding: 15px;
+      font-size: 1.2rem;
+      background: #fff;
+    }
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      max-width: 600px;
+      margin: auto;
+    }
+    form input, form textarea {
+      padding: 10px;
+      border: 2px solid #ccc;
+      border-radius: 5px;
+      font-size: 1rem;
+    }
+    form button {
+      background: #ff6f61;
+      color: #fff;
+      padding: 10px;
+      border: none;
+      border-radius: 5px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+    footer {
+      background: #222;
+      color: #fff;
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9rem;
+    }
+    footer a {
+      color: #ffd700;
+      text-decoration: none;
+      margin: 0 10px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Hitch Hickers</h1>
+    <nav>
+      <a href="">Home</a>
+      <a href="enquiry.html">Enquiry</a>
+      <a href="about.html">About Us</a>
+      <a href="rate.html">Rate List</a>
+      <a href="testemony.html">Testimony</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Your dream is our destination</h2>
+    <button>Explore Packages</button>
+  </section>
+
+  <section class="section">
+    <h2 style="text-align:center; margin-bottom: 30px;">Popular Destinations</h2>
+    <div class="destinations">
+      <div class="card">
+        <img src="https://www.travelanddestinations.com/wp-content/uploads/2021/07/Varanasi-waterfront-768x465.jpg" alt="Varanasi">
+        <h3>Varanasi - ₹8,999</h3>
+      </div>
+      <div class="card">
+        <img src="https://tribalreunion.com/wpfiles/wp-content/uploads/2020/10/Hill-Top-Festival-India-1170x659.jpg" alt="Goa">
+        <h3>Goa - ₹12,499</h3>
+      </div>
+      <div class="card">
+        <img src="https://static.toiimg.com/img/115224983/Master.jpg" alt="Jaipur">
+        <h3>Jaipur - ₹6,999</h3>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <h2 style="text-align:center; margin-bottom: 20px;">Quick Enquiry</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <input type="text" placeholder="Preferred Destination">
+      <textarea rows="4" placeholder="Message"></textarea>
+      <button type="submit">Submit Enquiry</button>
+    </form>
+  </section>
+
+  <footer>
+    Connect with us:
+    <a href="https://instagram.com/yuvraj_.poonia" target="_blank">Instagram</a> |
+    <a href="https://twitter.com/nous_foresight" target="_blank">Twitter</a>
+    <p>&copy; 2025 Hitch Hickers. All rights reserved.</p>
+  </footer>
+</body>
+</html>
+
